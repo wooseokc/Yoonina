@@ -3,20 +3,20 @@ import styled from "styled-components";
 import { ReactComponent as Upcoming} from '../svg/next.svg';
 
 const Schedule = forwardRef((props, ref) => {
-  const [tour, setTour] = useState('upcoming')
+  const [tour, setTour] = useState('ongoing')
 
   
-  const current = {
-    title : '',
-    data : '2022.07.14~2022.07.17',
-    img : '	https://klpga.co.kr/DATA/image/mainBanner/default_2022070003_140_80.png'
+  const next = {
+    title : '제주삼다수 마스터스',
+    data : '2022.08.04~2022.08.07',
+    img : '	https://klpga.co.kr/DATA/image/mainBanner/default_2022080001_190_105.png'
   }
   const last = {
     title : '에버콜라겐 퀸즈크라운 2022',
     data : '2022.07.14~2022.07.17',
     img : '	https://klpga.co.kr/DATA/image/mainBanner/default_2022070003_140_80.png'
   }
-  const next = {
+  const current = {
     title : '호반 서울신문 위민스 클래식',
     data : '2022.07.22~2022.07.24',
     img : 'https://klpga.co.kr/DATA/image/mainBanner/default_2022070021_140_80.png'
