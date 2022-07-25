@@ -10,8 +10,8 @@ const Career = forwardRef((props, ref) => {
   function countUP () {
 
     setFade({opacity: 1})
-    const targetTP = 477855464;
-    const targetMP = 374445714;
+    const targetTP = 488805464;
+    const targetMP = 385395714;
 
     const MPJump =  Math.floor(targetMP/150) 
     const TPJump =  Math.floor(targetTP/150)

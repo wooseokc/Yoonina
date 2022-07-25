@@ -171,34 +171,42 @@ const PhoneHeader = styled.div`
 
 const PhoneContainer = styled.div`
   position : absolute;
-  top : 10px;
-  right : 10px;
-  background : #none;
-  width : 90px;
-  height : 140px;
-  border-radius : 15px;
-  background : none;
-  display :   ${props => props.menu ? 'flex' : 'none' };
+  top : 0%;
+  right : 0%;
+  background : white;
+  width : 50%;
+  height : 1000px;
+  border-radius : 4px;
+  display : ${props => props.menu ? 'flex' : 'none' };
+  animation: ${props => props.menu ? 'menuBar 1s ease' : 'none'};
   flex-direction: column;
 
+  @keyframes menuBar {
+    0% {
+      width : 0px;
+    }
 
+    100% {
+      width : 50%;
+    }
+  }
 
 `
 
 const PhoneButton = styled.button`
-background: inherit ; 
-border:none; 
-box-shadow:none; 
-border-radius:0; 
-padding:0; 
-overflow:visible; 
-cursor:pointer;
-background : none;
+  background: inherit ; 
+  border: none; 
+  box-shadow:none; 
+  border-radius:0; 
+  padding:0; 
+  overflow:visible; 
+  cursor:pointer;
+  background : none;
 
-display : block;
-font-size : 20px;
-color: #CA4E79;
-text-align: end;
-margin-bottom : 5px;
+  display : block;
+  font-size : 20px;
+  color: #CA4E79;
+  text-align: center;
+  margin-top : 20px;
 
 `

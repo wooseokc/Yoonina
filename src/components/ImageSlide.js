@@ -53,15 +53,21 @@ export default function ImageSlide () {
     } else {
       setDelay(null)
       setFade(false)
-      e.target.childNodes[0].style.fill = '#810955'
+      if(window.innerWidth>500) {
+        e.target.childNodes[0].style.fill = '#810955'
+      }
     }
   }
 
   function bigger (e) {
-    e.target.childNodes[0].style.fill = '#810955'
+    if (window.innerWidth>500) {
+      e.target.childNodes[0].style.fill = '#810955'
+    }
   }
   function smaller (e) {
-    e.target.childNodes[0].style.fill = '#CA4E79'
+    if (window.innerWidth>500) {
+      e.target.childNodes[0].style.fill = '#CA4E79'
+    }
   }
 
   function nextPic (e) {
@@ -152,7 +158,8 @@ const RightBox = styled.button`
   width : 23px;
   height: 23px;
   bottom: 13px;
-  right: 20px
+  right: 20px;
+  z-index : 90;
 `
 
 

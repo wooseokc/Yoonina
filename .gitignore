@@ -9,6 +9,8 @@
 
 /.firebase
 /build
+.firebase
+.fucntions
 
 
 # testing
