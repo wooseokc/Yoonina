@@ -7,9 +7,9 @@ const Schedule = forwardRef((props, ref) => {
 
   
   const next = {
-    title : '제주삼다수 마스터스',
-    data : '2022.08.04~2022.08.07',
-    img : '	https://klpga.co.kr/DATA/image/mainBanner/default_2022080001_190_105.png'
+    title : '잠정 활동 중단',
+    data : '-',
+    img : '	https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn1.iconfinder.com%2Fdata%2Ficons%2Fessentials-67%2F64%2F27_No_Essentials-512.png&type=sc960_832'
   }
   const current = {
     title : '',

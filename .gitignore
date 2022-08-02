@@ -5,13 +5,13 @@
 /.pnp
 .pnp.js
 
-#etc.
+# etc
 
 /.firebase
 /build
 .firebase
 .fucntions
-
+.gitignore
 
 # testing
 /coverage

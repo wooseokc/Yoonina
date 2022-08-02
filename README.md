@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# 본 프로젝트는 배포가 완료된 프로젝트 입니다.
+[https://yoon-ina.com/](https://yoon-ina.com/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 원래 계획
+원래 계획은 팬페이지를 만들고 윤이나 프로 팬들과 함께 소통하면서 콘텐츠를 채워나갈 예정이었다. 그리고 팬페이지를 만드는 것이 좀 부끄럽기도 해서 깃헙 커밋을 아예 안하려고 했었다.
 
-## Available Scripts
+# 현재 상황
+배포를 하고 접근성을 위해 도메인도 사서 붙였는데.. 그 날 불미스러운 사건으로 현재 윤이나 프로의 활동이 중단되었다... 그래서 뭐... 팬카페에 이런 사이트를 만들었다고 홍보할 분위기도 아니어서 활동 복귀까지 이 서비스도 같이 연기할 것이다. 원래 페이지 자체를 자를려고했는데, 이왕 만든거 나중에 취업시 포트폴리오가 될 것이니까 깃헙에 커밋했다.
 
-In the project directory, you can run:
+# 배포 history
+7.16
+사진 렌더링 성능 개선 
+[https://wooseokc.github.io/single-project/PhotoSectionFix-copy/](https://wooseokc.github.io/single-project/PhotoSectionFix-copy/).
+7.25 
+모바일 접속시 헤더 부분이 콘텐츠와 겹쳐서 UX가 상당히 안좋아지는 것을 목격. 헤더 아이콘 클릭시 배경을 넣음으로써 해결
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
