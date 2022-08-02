@@ -11,6 +11,7 @@
 7.16
 사진 렌더링 성능 개선 
 [https://wooseokc.github.io/single-project/PhotoSectionFix-copy/](https://wooseokc.github.io/single-project/PhotoSectionFix-copy/).
+<br>
 7.25 
 모바일 접속시 헤더 부분이 콘텐츠와 겹쳐서 UX가 상당히 안좋아지는 것을 목격. 헤더 아이콘 클릭시 배경을 넣음으로써 해결
 
